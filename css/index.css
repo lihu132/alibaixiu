@@ -22,7 +22,17 @@ a:hover {
   background-color: #429ad9;
 }
 .logo img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.logo span {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
 }
 .nav {
   background-color: #eee;

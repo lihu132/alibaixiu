@@ -27,9 +27,27 @@ a:hover {
     background-color: #429ad9;
 
     img {
-        width: 100%;
+        // width: 100%;
+        // logo图片不需要缩放
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    span {
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
     }
 }
+
+// 进入超小屏幕下logo的图片隐藏
+// 事先准备好一个盒子，平时隐藏，只有在xs屏幕下显示
+
+
 
 .nav {
     background-color: #eee;
