@@ -73,6 +73,31 @@ a:hover {
     }
 }
 
+
+// 当进入sm 和xs的时候，li浮动起来，并且宽度为20%
+@media screen and (max-width:991px) {
+    .nav {
+        li {
+            float: left;
+            width: 20%;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav {
+        li {
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+
+
+
 .news {
     li {
         float: left;
