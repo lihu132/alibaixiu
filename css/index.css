@@ -15,6 +15,12 @@ a {
 a:hover {
   text-decoration: none;
 }
+body {
+  background-color: #f5f5f5;
+}
+.container {
+  background-color: #fff;
+}
 .header {
   padding-left: 0;
 }
@@ -58,10 +64,19 @@ a:hover {
     float: left;
     width: 20%;
   }
+  .article {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 767px) {
   .nav li a {
     font-size: 14px;
+  }
+  .news li {
+    width: 50% !important;
+  }
+  .news li:first-child {
+    width: 100% !important;
   }
 }
 .news li {
