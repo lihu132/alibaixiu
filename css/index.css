@@ -71,12 +71,19 @@ body {
 @media screen and (max-width: 767px) {
   .nav li a {
     font-size: 14px;
+    padding-left: 3px;
   }
   .news li {
     width: 50% !important;
   }
   .news li:first-child {
     width: 100% !important;
+  }
+  .publish h3 {
+    font-size: 14px;
+  }
+  .aside {
+    margin-top: 10px;
   }
 }
 .news li {
